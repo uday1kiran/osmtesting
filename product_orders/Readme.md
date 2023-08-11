@@ -10,7 +10,7 @@ kubectl -n mongosample create secret docker-registry dockerhub-secret \
   --docker-email=emailid
 
 ##manual image pull on k3s machine
-sudo ctr image pull docker.io/library/mongodb:latest
+sudo ctr image pull docker.io/library/mongo:latest
 sudo ctr image pull docker.io/library/mongo-express:latest
 sudo ctr image pull docker.io/library/nginx:latest
 
